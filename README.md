@@ -408,3 +408,6 @@ Generate a fresh token daily using `get_access_token.py` before 07:30 IST.
 ---
 
 **Happy trading! 📈**
+<img width="449" height="1024" alt="image" src="https://github.com/user-attachments/assets/7fa4a85e-1bca-45d2-a561-63b75987bd0b" />
+<img width="449" height="1024" alt="image" src="https://github.com/user-attachments/assets/df75269e-9999-4aa2-bc1a-e0bab0a4e2b4" />
+
