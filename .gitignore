@@ -1,31 +1,53 @@
-# Built things
-_Debug/
-Compiled/
+# Environment variables
+.env
+.env.local
+.env.*.local
 
-# AudioCache can be rebuilt from sources
-AudioCache/
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
 
-# Lockfile
-_OpenInEditor.lock
+# IDE and Editor
+.idea/
+.vscode/
+*.swp
+*.swo
+*.sublime-project
+*.sublime-workspace
+.DS_Store
+Thumbs.db
 
-# User settings
-Game.agf.user
-*.crm.user
+# Logs
+logs/
+*.log
 
-# Backups
-Game.agf.bak
-backup_acsprset.spr
+# Archives and Temporary files
+*.zip
+*.tar
+*.tar.gz
+.claude/
 
-# Memory dumps
-*.dmp
-
-# Temporary files
-# temporarily created during sprite or room background compression
-~aclzw.tmp
-# temporary, main game data, before getting packed into exe
-game28.dta
-# temporary build of the game before being moved to Compiled/ folder
-*.exe
-
-# Log files
-warnings.log
+# Project specific
+cache/
+results/

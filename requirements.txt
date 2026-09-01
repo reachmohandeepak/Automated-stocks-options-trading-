@@ -1,0 +1,20 @@
+# Core
+kiteconnect>=4.2.0           # Zerodha Kite Connect broker API
+pandas>=2.0.0                # Time series / OHLCV handling
+numpy>=1.24.0
+# Indicators are hand-rolled in indicators.py — no external TA lib needed.
+# (Avoids pandas-ta → numba pin that breaks on Python 3.14.)
+
+# Optional alternate brokers (uncomment as needed)
+# upstox-python-sdk>=2.0.0
+# smartapi-python>=1.3.0     # Angel One SmartAPI
+
+# Networking / scheduling / UI
+requests>=2.31.0             # Telegram + HTTP retries
+schedule>=1.2.0              # Time-based job scheduling
+pytz>=2023.3                 # IST timezone handling
+rich>=13.0.0                 # Live terminal dashboard
+python-dotenv>=1.0.0         # Load secrets from .env
+
+# Optional Flask UI (uncomment to use dashboard_flask)
+# flask>=3.0.0
